@@ -1,0 +1,2072 @@
+[
+  {
+    "team": [
+      {
+        "id": "057f9ed7-6125-4980-a6be-5ffc99f193b1",
+        "name": "Red Dragons",
+        "created_at": "2023-08-15T08:53:03.040Z",
+        "updated_at": "2023-08-14T20:17:06.213Z",
+        "manager_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "95bb7399-c68f-40af-8554-7ec5fe9acb33",
+        "name": "Blue Tigers",
+        "created_at": "2023-08-15T02:19:14.101Z",
+        "updated_at": "2023-08-14T12:49:39.899Z",
+        "manager_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "924e8b33-2145-4d7d-b5f6-eba9a645dc6d",
+        "name": "Green Falcons",
+        "created_at": "2023-08-15T05:08:22.691Z",
+        "updated_at": "2023-08-15T08:55:08.370Z",
+        "manager_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "e71384d4-d7da-477b-9bf2-9a020d0fd049",
+        "name": "Yellow Lions",
+        "created_at": "2023-08-14T14:55:11.553Z",
+        "updated_at": "2023-08-14T21:24:43.430Z",
+        "manager_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "5b042430-12c1-4e12-af1a-c13359b40792",
+        "name": "Purple Panthers",
+        "created_at": "2023-08-14T22:44:45.382Z",
+        "updated_at": "2023-08-14T17:40:38.268Z",
+        "manager_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "player": [
+      {
+        "id": "74881c61-a225-4dc1-b852-81ec6643adb0",
+        "name": "John Smith",
+        "created_at": "2023-08-14T15:17:49.998Z",
+        "updated_at": "2023-08-14T21:01:54.897Z",
+        "team_id": "95bb7399-c68f-40af-8554-7ec5fe9acb33"
+      },
+      {
+        "id": "bcb00840-99a0-4ba4-a481-cbbce9d142f1",
+        "name": "Emily Johnson",
+        "created_at": "2023-08-14T21:37:09.892Z",
+        "updated_at": "2023-08-15T04:55:54.373Z",
+        "team_id": "e71384d4-d7da-477b-9bf2-9a020d0fd049"
+      },
+      {
+        "id": "789f5300-0ff9-4c6c-b50b-708361e6d796",
+        "name": "Michael Brown",
+        "created_at": "2023-08-14T17:54:39.989Z",
+        "updated_at": "2023-08-14T17:48:44.853Z",
+        "team_id": "057f9ed7-6125-4980-a6be-5ffc99f193b1"
+      },
+      {
+        "id": "8f7a1141-47b3-4ad8-8129-1733b295b237",
+        "name": "Sarah Davis",
+        "created_at": "2023-08-15T02:47:58.391Z",
+        "updated_at": "2023-08-14T21:56:57.746Z",
+        "team_id": "95bb7399-c68f-40af-8554-7ec5fe9acb33"
+      },
+      {
+        "id": "3bdad20d-b0db-4c89-8483-46195cb54b18",
+        "name": "David Wilson",
+        "created_at": "2023-08-15T01:57:45.510Z",
+        "updated_at": "2023-08-14T22:54:49.663Z",
+        "team_id": "5b042430-12c1-4e12-af1a-c13359b40792"
+      }
+    ],
+    "game": [
+      {
+        "id": "7025cfbc-6890-4589-94d8-4ed9cee44840",
+        "status": "In Progress",
+        "created_at": "2023-08-14T13:34:28.706Z",
+        "updated_at": "2023-08-15T06:57:08.810Z",
+        "referee_id": "user_entity_pk",
+        "team_id": "924e8b33-2145-4d7d-b5f6-eba9a645dc6d"
+      },
+      {
+        "id": "06085fd9-590d-44c5-af86-449462212f5c",
+        "status": "Completed",
+        "created_at": "2023-08-14T16:00:25.633Z",
+        "updated_at": "2023-08-14T20:19:56.048Z",
+        "referee_id": "user_entity_pk",
+        "team_id": "e71384d4-d7da-477b-9bf2-9a020d0fd049"
+      },
+      {
+        "id": "2f4b6dbc-1d96-4d8c-aa51-337aaa76b48f",
+        "status": "Cancelled",
+        "created_at": "2023-08-14T17:18:35.143Z",
+        "updated_at": "2023-08-14T10:40:35.170Z",
+        "referee_id": "user_entity_pk",
+        "team_id": "057f9ed7-6125-4980-a6be-5ffc99f193b1"
+      },
+      {
+        "id": "5b1139f4-1c9a-4cc8-8563-e58418cd3ad8",
+        "status": "Upcoming",
+        "created_at": "2023-08-15T02:29:46.986Z",
+        "updated_at": "2023-08-14T12:45:13.258Z",
+        "referee_id": "user_entity_pk",
+        "team_id": "057f9ed7-6125-4980-a6be-5ffc99f193b1"
+      },
+      {
+        "id": "bd74ad50-3687-4210-ad8c-3a1dc619ddb4",
+        "status": "Paused",
+        "created_at": "2023-08-14T12:40:05.648Z",
+        "updated_at": "2023-08-15T00:53:42.426Z",
+        "referee_id": "user_entity_pk",
+        "team_id": "924e8b33-2145-4d7d-b5f6-eba9a645dc6d"
+      }
+    ],
+    "customer": [
+      {
+        "id": "37d85402-e706-45a3-b45b-7b86170135e4",
+        "name": "ABC Company",
+        "created_at": "2023-08-14T11:54:44.491Z",
+        "updated_at": "2023-08-15T09:00:04.436Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "bf13eec6-5146-415a-baf2-bde1a9d7e234",
+        "name": "XYZ Corporation",
+        "created_at": "2023-08-15T00:57:37.577Z",
+        "updated_at": "2023-08-14T21:01:29.303Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "f3950655-71a5-43b4-869e-13c09ab66026",
+        "name": "123 Enterprises",
+        "created_at": "2023-08-14T11:14:28.332Z",
+        "updated_at": "2023-08-14T15:50:56.615Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "cd027782-6ba0-4ca4-b117-363899054b0c",
+        "name": "Acme Inc.",
+        "created_at": "2023-08-14T20:10:53.152Z",
+        "updated_at": "2023-08-14T22:15:20.278Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "a17e70d2-ed0f-4171-9d9a-cef253b93f95",
+        "name": "Global Solutions",
+        "created_at": "2023-08-14T23:45:26.787Z",
+        "updated_at": "2023-08-14T17:39:31.377Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "fb6c1cce-4087-4bff-82db-ba74eb4313fd",
+        "email": "Christina38@yahoo.com",
+        "firstName": "Fleta",
+        "lastName": "Heidenreich",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/149.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c61113f6-769f-4bc8-a312-57e78a4cab7c",
+        "email": "Clint47@gmail.com",
+        "firstName": "Collin",
+        "lastName": "Rolfson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/14250022",
+        "tenantId": null
+      },
+      {
+        "reference": "5a520fd8-5302-4277-9756-f4b6adf2a83c",
+        "email": "Delphia62@gmail.com",
+        "firstName": "Makenzie",
+        "lastName": "Lynch",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/55100686",
+        "tenantId": null
+      },
+      {
+        "reference": "c66b44fa-ff29-448a-b389-5d57cc71154f",
+        "email": "Columbus_Kirlin@hotmail.com",
+        "firstName": "Leanne",
+        "lastName": "Schneider",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98412374",
+        "tenantId": null
+      },
+      {
+        "reference": "323cdfb8-38f3-4747-acaf-36f630fce9d3",
+        "email": "Ed.Little46@gmail.com",
+        "firstName": "Amaya",
+        "lastName": "Jacobi",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/882.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "team": [
+      {
+        "id": "56e0b86f-6990-42fc-b00d-31342412f88d",
+        "name": "Red Dragons",
+        "created_at": "2023-08-15T00:20:23.146Z",
+        "updated_at": "2023-08-14T18:17:27.440Z",
+        "manager_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "68dfe63b-c5de-482b-a518-898777c40886",
+        "name": "Blue Tigers",
+        "created_at": "2023-08-14T11:35:08.585Z",
+        "updated_at": "2023-08-15T05:02:31.336Z",
+        "manager_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "6756808a-3f16-40ac-9fa7-d13f80b6f31a",
+        "name": "Green Falcons",
+        "created_at": "2023-08-15T07:16:04.679Z",
+        "updated_at": "2023-08-14T22:03:21.497Z",
+        "manager_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "675ec523-4a70-4204-9274-e657b60c08f6",
+        "name": "Yellow Lions",
+        "created_at": "2023-08-15T05:08:19.276Z",
+        "updated_at": "2023-08-15T03:59:31.509Z",
+        "manager_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "6151ca00-399f-41ed-a1a7-c5ea1ecfee96",
+        "name": "Purple Panthers",
+        "created_at": "2023-08-15T05:02:14.686Z",
+        "updated_at": "2023-08-14T17:59:07.708Z",
+        "manager_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "player": [
+      {
+        "id": "1a78ddad-71c5-4c3b-9eac-4ed33c02086a",
+        "name": "John Smith",
+        "created_at": "2023-08-14T11:13:28.544Z",
+        "updated_at": "2023-08-14T13:56:40.197Z",
+        "team_id": "56e0b86f-6990-42fc-b00d-31342412f88d"
+      },
+      {
+        "id": "bc7b16a9-3ccd-41f8-8790-ee2e24ec1c95",
+        "name": "Emily Johnson",
+        "created_at": "2023-08-14T16:55:15.706Z",
+        "updated_at": "2023-08-14T18:03:56.913Z",
+        "team_id": "56e0b86f-6990-42fc-b00d-31342412f88d"
+      },
+      {
+        "id": "410f5c5d-5546-4757-8baa-4909e0429288",
+        "name": "Michael Brown",
+        "created_at": "2023-08-14T23:48:59.795Z",
+        "updated_at": "2023-08-14T17:20:14.153Z",
+        "team_id": "56e0b86f-6990-42fc-b00d-31342412f88d"
+      },
+      {
+        "id": "c27404f8-b5d3-4f02-943c-c4f51438f69c",
+        "name": "Sarah Davis",
+        "created_at": "2023-08-15T00:28:06.010Z",
+        "updated_at": "2023-08-15T06:27:42.819Z",
+        "team_id": "675ec523-4a70-4204-9274-e657b60c08f6"
+      },
+      {
+        "id": "87e28358-9b60-4955-97f5-4bd23b9e06a5",
+        "name": "David Wilson",
+        "created_at": "2023-08-14T10:45:23.683Z",
+        "updated_at": "2023-08-14T13:44:45.626Z",
+        "team_id": "675ec523-4a70-4204-9274-e657b60c08f6"
+      }
+    ],
+    "game": [
+      {
+        "id": "399e042a-4765-467f-b958-4f3e4e5db2cf",
+        "status": "In Progress",
+        "created_at": "2023-08-15T07:11:49.574Z",
+        "updated_at": "2023-08-14T14:14:55.405Z",
+        "referee_id": "user_entity_pk",
+        "team_id": "675ec523-4a70-4204-9274-e657b60c08f6"
+      },
+      {
+        "id": "b2fc3e86-ec80-4eea-a833-483aef6861c3",
+        "status": "Completed",
+        "created_at": "2023-08-15T06:58:09.450Z",
+        "updated_at": "2023-08-15T00:43:09.207Z",
+        "referee_id": "user_entity_pk",
+        "team_id": "6756808a-3f16-40ac-9fa7-d13f80b6f31a"
+      },
+      {
+        "id": "511c45e7-75fe-4faf-8b99-1791b68b2452",
+        "status": "Cancelled",
+        "created_at": "2023-08-15T03:24:09.972Z",
+        "updated_at": "2023-08-15T10:10:40.698Z",
+        "referee_id": "user_entity_pk",
+        "team_id": "68dfe63b-c5de-482b-a518-898777c40886"
+      },
+      {
+        "id": "9491f81b-5c75-4542-8033-21ea5e9ab97f",
+        "status": "Upcoming",
+        "created_at": "2023-08-14T20:19:54.663Z",
+        "updated_at": "2023-08-15T06:13:42.620Z",
+        "referee_id": "user_entity_pk",
+        "team_id": "6756808a-3f16-40ac-9fa7-d13f80b6f31a"
+      },
+      {
+        "id": "017f6a27-bb59-4420-9ccd-fdabae73015c",
+        "status": "Paused",
+        "created_at": "2023-08-14T16:36:11.905Z",
+        "updated_at": "2023-08-15T10:08:29.643Z",
+        "referee_id": "user_entity_pk",
+        "team_id": "6756808a-3f16-40ac-9fa7-d13f80b6f31a"
+      }
+    ],
+    "customer": [
+      {
+        "id": "62c46020-cef9-4caf-824d-adcb9d6c2b27",
+        "name": "ABC Company",
+        "created_at": "2023-08-14T19:08:17.069Z",
+        "updated_at": "2023-08-15T06:40:14.211Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "691ac6fe-b0cc-4415-9655-467196e88d4d",
+        "name": "XYZ Corporation",
+        "created_at": "2023-08-14T17:49:43.746Z",
+        "updated_at": "2023-08-14T13:55:30.305Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "49f71da2-ef20-4ecf-ae53-0d0951d96cfb",
+        "name": "123 Enterprises",
+        "created_at": "2023-08-15T03:24:09.774Z",
+        "updated_at": "2023-08-15T02:45:34.493Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "00bf6f5e-585e-4f38-baf5-adb72c2299f6",
+        "name": "Acme Inc.",
+        "created_at": "2023-08-15T06:48:14.480Z",
+        "updated_at": "2023-08-15T01:43:09.305Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "fef3ec0e-7c7d-48c9-9c41-2ae5cd5fd4ff",
+        "name": "Global Solutions",
+        "created_at": "2023-08-14T14:36:32.536Z",
+        "updated_at": "2023-08-15T03:56:10.766Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "aa043b3c-b833-4384-af63-24a2521bb024",
+        "email": "Mabelle_Mueller@hotmail.com",
+        "firstName": "Zoe",
+        "lastName": "Kuhlman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/80538884",
+        "tenantId": null
+      },
+      {
+        "reference": "9dc9f588-2132-42ca-90e8-af013d1dbf5e",
+        "email": "Beaulah.Waelchi@yahoo.com",
+        "firstName": "Guy",
+        "lastName": "Marquardt",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/49927759",
+        "tenantId": null
+      },
+      {
+        "reference": "580c6544-14e5-470b-833e-0e0aae76ef83",
+        "email": "Alverta.Harber@hotmail.com",
+        "firstName": "Nathan",
+        "lastName": "O'Keefe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/14204985",
+        "tenantId": null
+      },
+      {
+        "reference": "cfa90335-3eb0-4d5d-9491-55245ee7c8c1",
+        "email": "Deion.Jacobi@hotmail.com",
+        "firstName": "Harrison",
+        "lastName": "Bahringer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/67777375",
+        "tenantId": null
+      },
+      {
+        "reference": "daa7ee81-a646-44b7-8bef-b54f29f451a4",
+        "email": "Tressie.Becker@gmail.com",
+        "firstName": "Emilio",
+        "lastName": "Runolfsson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/89466498",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "team": [
+      {
+        "id": "32b8c0af-25db-4264-8d54-3ac0febb5f83",
+        "name": "Red Dragons",
+        "created_at": "2023-08-15T01:48:59.883Z",
+        "updated_at": "2023-08-14T18:25:19.215Z",
+        "manager_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "b77953b2-05ac-4124-a34a-2a869b9f0a84",
+        "name": "Blue Tigers",
+        "created_at": "2023-08-14T20:57:22.128Z",
+        "updated_at": "2023-08-15T03:53:05.702Z",
+        "manager_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "f24d4c0a-8e0d-453c-9e3b-61bcdcf0e284",
+        "name": "Green Falcons",
+        "created_at": "2023-08-14T14:06:50.417Z",
+        "updated_at": "2023-08-14T19:36:41.859Z",
+        "manager_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "474e2dd4-bdfb-4b85-b0f9-6dc9caffe626",
+        "name": "Yellow Lions",
+        "created_at": "2023-08-14T12:31:40.359Z",
+        "updated_at": "2023-08-15T04:53:11.485Z",
+        "manager_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "9bcda70a-3d60-4d8f-8185-91d7252b6375",
+        "name": "Purple Panthers",
+        "created_at": "2023-08-14T18:28:48.735Z",
+        "updated_at": "2023-08-15T04:43:23.130Z",
+        "manager_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "player": [
+      {
+        "id": "5acf8bc8-a2f3-4ae8-81ce-4bc363083492",
+        "name": "John Smith",
+        "created_at": "2023-08-15T05:22:03.211Z",
+        "updated_at": "2023-08-14T18:30:52.129Z",
+        "team_id": "b77953b2-05ac-4124-a34a-2a869b9f0a84"
+      },
+      {
+        "id": "4c9714df-475c-47b3-8c09-7acdca9623e5",
+        "name": "Emily Johnson",
+        "created_at": "2023-08-14T21:19:24.934Z",
+        "updated_at": "2023-08-15T03:52:09.834Z",
+        "team_id": "f24d4c0a-8e0d-453c-9e3b-61bcdcf0e284"
+      },
+      {
+        "id": "b450bdd5-92b0-40f8-97fb-a9ec2323c26a",
+        "name": "Michael Brown",
+        "created_at": "2023-08-14T22:36:51.070Z",
+        "updated_at": "2023-08-15T02:11:06.303Z",
+        "team_id": "b77953b2-05ac-4124-a34a-2a869b9f0a84"
+      },
+      {
+        "id": "5f26cef1-e0fb-42cf-921c-d6d86ae5eda3",
+        "name": "Sarah Davis",
+        "created_at": "2023-08-14T23:40:42.447Z",
+        "updated_at": "2023-08-14T22:15:07.988Z",
+        "team_id": "474e2dd4-bdfb-4b85-b0f9-6dc9caffe626"
+      },
+      {
+        "id": "f4140eed-646f-4b7c-992a-340947349d1c",
+        "name": "David Wilson",
+        "created_at": "2023-08-14T12:43:25.555Z",
+        "updated_at": "2023-08-15T06:57:55.930Z",
+        "team_id": "f24d4c0a-8e0d-453c-9e3b-61bcdcf0e284"
+      }
+    ],
+    "game": [
+      {
+        "id": "649bcf6d-4425-4be9-925a-c50d70172c43",
+        "status": "In Progress",
+        "created_at": "2023-08-15T00:14:55.365Z",
+        "updated_at": "2023-08-14T16:40:54.440Z",
+        "referee_id": "user_entity_pk",
+        "team_id": "32b8c0af-25db-4264-8d54-3ac0febb5f83"
+      },
+      {
+        "id": "9e6b793e-c60b-4644-8f7b-d8ef170af6fe",
+        "status": "Completed",
+        "created_at": "2023-08-14T11:47:21.123Z",
+        "updated_at": "2023-08-14T11:15:30.248Z",
+        "referee_id": "user_entity_pk",
+        "team_id": "474e2dd4-bdfb-4b85-b0f9-6dc9caffe626"
+      },
+      {
+        "id": "29d7bc7f-9066-4405-8d58-f5af0c6b2152",
+        "status": "Cancelled",
+        "created_at": "2023-08-14T18:36:19.176Z",
+        "updated_at": "2023-08-14T20:13:12.633Z",
+        "referee_id": "user_entity_pk",
+        "team_id": "474e2dd4-bdfb-4b85-b0f9-6dc9caffe626"
+      },
+      {
+        "id": "92b49783-3e97-42cd-94f2-2e3f38a166cf",
+        "status": "Upcoming",
+        "created_at": "2023-08-14T20:17:12.375Z",
+        "updated_at": "2023-08-15T05:33:04.552Z",
+        "referee_id": "user_entity_pk",
+        "team_id": "f24d4c0a-8e0d-453c-9e3b-61bcdcf0e284"
+      },
+      {
+        "id": "57f4ee73-dd66-48a8-9f34-0abbd49d6c97",
+        "status": "Paused",
+        "created_at": "2023-08-14T18:32:14.485Z",
+        "updated_at": "2023-08-14T21:34:30.241Z",
+        "referee_id": "user_entity_pk",
+        "team_id": "474e2dd4-bdfb-4b85-b0f9-6dc9caffe626"
+      }
+    ],
+    "customer": [
+      {
+        "id": "518b3bf1-8b24-4db1-99b0-fc7268ae2e50",
+        "name": "ABC Company",
+        "created_at": "2023-08-14T18:08:53.005Z",
+        "updated_at": "2023-08-14T13:49:11.981Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "db47e5f4-770f-4561-b8cd-a70282ca60cc",
+        "name": "XYZ Corporation",
+        "created_at": "2023-08-15T04:18:08.749Z",
+        "updated_at": "2023-08-15T04:45:38.368Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "ca0b53d8-921a-47fb-81c3-e585476e1c7c",
+        "name": "123 Enterprises",
+        "created_at": "2023-08-14T12:56:42.827Z",
+        "updated_at": "2023-08-14T22:05:07.584Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "89844228-ad5a-43bd-8a96-7cc5e2c48c37",
+        "name": "Acme Inc.",
+        "created_at": "2023-08-14T23:52:46.801Z",
+        "updated_at": "2023-08-14T16:53:02.933Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "19e1e35e-441d-46c4-9fc7-5f1fbe4f5f11",
+        "name": "Global Solutions",
+        "created_at": "2023-08-15T04:15:40.486Z",
+        "updated_at": "2023-08-14T23:19:48.488Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "a5088fbb-4858-4a23-97fb-dfd784499555",
+        "email": "Dashawn_Hansen1@gmail.com",
+        "firstName": "Hulda",
+        "lastName": "Morar",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/65542942",
+        "tenantId": null
+      },
+      {
+        "reference": "45f658e7-0c96-40a0-91be-641df0be0a0c",
+        "email": "Jamaal50@gmail.com",
+        "firstName": "Stuart",
+        "lastName": "Russel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/43020300",
+        "tenantId": null
+      },
+      {
+        "reference": "4cff43ec-180b-4e91-b102-d38522a2e161",
+        "email": "Rogers_Block@gmail.com",
+        "firstName": "Eloisa",
+        "lastName": "Effertz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/764.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1f504c7e-cab9-4df1-99bc-442eaa023369",
+        "email": "Modesta10@yahoo.com",
+        "firstName": "Sonny",
+        "lastName": "Gerhold",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/99772783",
+        "tenantId": null
+      },
+      {
+        "reference": "bb800631-0b09-4ee1-b931-b53eef41b4c1",
+        "email": "Josiah_Bins13@yahoo.com",
+        "firstName": "Helena",
+        "lastName": "Stoltenberg",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8158544",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "team": [
+      {
+        "id": "69b0ccbf-00ac-4289-8f4f-14af039be921",
+        "name": "Red Dragons",
+        "created_at": "2023-08-15T00:59:18.721Z",
+        "updated_at": "2023-08-14T15:39:10.314Z",
+        "manager_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "75e20aea-5565-4f46-bde7-9cd025825e73",
+        "name": "Blue Tigers",
+        "created_at": "2023-08-14T15:12:14.601Z",
+        "updated_at": "2023-08-15T06:14:08.871Z",
+        "manager_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "f9416aa8-e64c-427c-9e5b-386f1f98e934",
+        "name": "Green Falcons",
+        "created_at": "2023-08-15T06:00:36.490Z",
+        "updated_at": "2023-08-14T17:04:26.350Z",
+        "manager_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "4fd472b7-ea8a-48c5-adbf-57a7dcecad6b",
+        "name": "Yellow Lions",
+        "created_at": "2023-08-14T11:10:38.728Z",
+        "updated_at": "2023-08-14T12:41:12.856Z",
+        "manager_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "a7214a39-0e57-4f4c-a705-c8a4e24b233f",
+        "name": "Purple Panthers",
+        "created_at": "2023-08-14T16:31:43.058Z",
+        "updated_at": "2023-08-14T14:01:28.117Z",
+        "manager_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "player": [
+      {
+        "id": "6e373df8-70e3-4769-9923-8e38c180312b",
+        "name": "John Smith",
+        "created_at": "2023-08-14T10:38:08.131Z",
+        "updated_at": "2023-08-15T09:42:53.475Z",
+        "team_id": "4fd472b7-ea8a-48c5-adbf-57a7dcecad6b"
+      },
+      {
+        "id": "536428cb-1686-44c6-971d-5095c2b57f28",
+        "name": "Emily Johnson",
+        "created_at": "2023-08-14T14:27:53.150Z",
+        "updated_at": "2023-08-15T00:01:38.855Z",
+        "team_id": "69b0ccbf-00ac-4289-8f4f-14af039be921"
+      },
+      {
+        "id": "6fbde38f-da4d-4701-81f6-91e88b2c57e4",
+        "name": "Michael Brown",
+        "created_at": "2023-08-15T06:49:27.346Z",
+        "updated_at": "2023-08-14T14:05:58.213Z",
+        "team_id": "69b0ccbf-00ac-4289-8f4f-14af039be921"
+      },
+      {
+        "id": "cac3a574-5fa7-42ab-ad4f-c87bd11c24a6",
+        "name": "Sarah Davis",
+        "created_at": "2023-08-14T23:24:44.827Z",
+        "updated_at": "2023-08-15T03:05:10.870Z",
+        "team_id": "69b0ccbf-00ac-4289-8f4f-14af039be921"
+      },
+      {
+        "id": "c094038f-0f6e-4372-aded-7d5322ed465f",
+        "name": "David Wilson",
+        "created_at": "2023-08-14T15:39:58.663Z",
+        "updated_at": "2023-08-14T17:00:17.337Z",
+        "team_id": "4fd472b7-ea8a-48c5-adbf-57a7dcecad6b"
+      }
+    ],
+    "game": [
+      {
+        "id": "b4763442-b17d-4abe-9c51-86cd89241ac9",
+        "status": "In Progress",
+        "created_at": "2023-08-14T22:43:10.823Z",
+        "updated_at": "2023-08-14T23:04:47.293Z",
+        "referee_id": "user_entity_pk",
+        "team_id": "69b0ccbf-00ac-4289-8f4f-14af039be921"
+      },
+      {
+        "id": "f1009602-60ca-4205-927c-defe86bf64e8",
+        "status": "Completed",
+        "created_at": "2023-08-14T17:33:31.393Z",
+        "updated_at": "2023-08-14T17:54:42.986Z",
+        "referee_id": "user_entity_pk",
+        "team_id": "a7214a39-0e57-4f4c-a705-c8a4e24b233f"
+      },
+      {
+        "id": "24bf33f4-2afe-4f15-9be0-b15d6a83df97",
+        "status": "Cancelled",
+        "created_at": "2023-08-15T07:55:13.553Z",
+        "updated_at": "2023-08-15T08:12:45.286Z",
+        "referee_id": "user_entity_pk",
+        "team_id": "75e20aea-5565-4f46-bde7-9cd025825e73"
+      },
+      {
+        "id": "f7e8e311-67f3-4e2c-a829-e518a973addc",
+        "status": "Upcoming",
+        "created_at": "2023-08-15T00:56:50.816Z",
+        "updated_at": "2023-08-15T03:17:54.403Z",
+        "referee_id": "user_entity_pk",
+        "team_id": "f9416aa8-e64c-427c-9e5b-386f1f98e934"
+      },
+      {
+        "id": "28aa16e6-eabf-4abb-a730-fad0e89f44fc",
+        "status": "Paused",
+        "created_at": "2023-08-14T15:11:31.918Z",
+        "updated_at": "2023-08-14T21:49:13.275Z",
+        "referee_id": "user_entity_pk",
+        "team_id": "75e20aea-5565-4f46-bde7-9cd025825e73"
+      }
+    ],
+    "customer": [
+      {
+        "id": "b080d73a-2c7f-4300-b9b4-75122c871ec4",
+        "name": "ABC Company",
+        "created_at": "2023-08-14T18:23:51.091Z",
+        "updated_at": "2023-08-14T11:26:45.702Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "ed945585-49fa-419e-8093-6fe34d982a11",
+        "name": "XYZ Corporation",
+        "created_at": "2023-08-14T22:33:48.856Z",
+        "updated_at": "2023-08-15T07:15:19.753Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "c442f263-fe41-4111-8265-0785553770e4",
+        "name": "123 Enterprises",
+        "created_at": "2023-08-15T00:09:52.484Z",
+        "updated_at": "2023-08-15T02:44:14.778Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "ef885c5d-1542-4893-bf29-51d4a714e6bf",
+        "name": "Acme Inc.",
+        "created_at": "2023-08-14T16:40:48.788Z",
+        "updated_at": "2023-08-15T06:30:54.112Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "47613b6a-132e-4214-bb6d-6938d529d30a",
+        "name": "Global Solutions",
+        "created_at": "2023-08-14T11:13:10.730Z",
+        "updated_at": "2023-08-14T16:13:32.950Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "877a2f33-7e5f-413e-80fd-af0ea59b340c",
+        "email": "Gerard73@yahoo.com",
+        "firstName": "Zoila",
+        "lastName": "Veum",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/129.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c00d6d7c-6f96-4198-afdc-f322984756ee",
+        "email": "Destiney.Blick33@yahoo.com",
+        "firstName": "Ila",
+        "lastName": "Leffler",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1188.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5d174ff3-f8d1-414e-8fb9-01562e10e292",
+        "email": "Jeanie_OReilly@hotmail.com",
+        "firstName": "Polly",
+        "lastName": "Casper",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/829.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2711d028-8c15-4d12-9969-b736c89042ef",
+        "email": "Cedrick76@gmail.com",
+        "firstName": "Muhammad",
+        "lastName": "Ward",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1144.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "cf873127-657c-4fa7-a50d-071beb2dccea",
+        "email": "Chance_Wilderman@gmail.com",
+        "firstName": "Abbie",
+        "lastName": "Goldner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/96802188",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "team": [
+      {
+        "id": "412942b4-3e58-4b02-995e-61c853dba435",
+        "name": "Red Dragons",
+        "created_at": "2023-08-15T01:14:54.224Z",
+        "updated_at": "2023-08-14T22:58:23.276Z",
+        "manager_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "040c00bc-cc01-4e59-a417-8a572cd570c6",
+        "name": "Blue Tigers",
+        "created_at": "2023-08-15T00:21:57.488Z",
+        "updated_at": "2023-08-14T23:34:58.346Z",
+        "manager_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "f011ca7f-f5e9-4f07-954c-940248aada5e",
+        "name": "Green Falcons",
+        "created_at": "2023-08-15T01:14:17.187Z",
+        "updated_at": "2023-08-14T14:39:36.970Z",
+        "manager_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "9523b4fe-10dc-4bee-8ba2-33ff8d237531",
+        "name": "Yellow Lions",
+        "created_at": "2023-08-14T11:38:50.923Z",
+        "updated_at": "2023-08-14T13:12:16.713Z",
+        "manager_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "2cdfb55e-ff4b-4598-a576-79680da6e98a",
+        "name": "Purple Panthers",
+        "created_at": "2023-08-15T04:45:07.330Z",
+        "updated_at": "2023-08-14T12:20:09.775Z",
+        "manager_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "player": [
+      {
+        "id": "ec1012e4-13bb-4ddd-ab12-96738eac37d6",
+        "name": "John Smith",
+        "created_at": "2023-08-15T02:27:49.058Z",
+        "updated_at": "2023-08-14T13:09:30.721Z",
+        "team_id": "412942b4-3e58-4b02-995e-61c853dba435"
+      },
+      {
+        "id": "479ec034-510f-42af-a878-231900aee8f2",
+        "name": "Emily Johnson",
+        "created_at": "2023-08-15T10:05:22.394Z",
+        "updated_at": "2023-08-15T07:11:02.847Z",
+        "team_id": "f011ca7f-f5e9-4f07-954c-940248aada5e"
+      },
+      {
+        "id": "69744335-a561-4a90-8947-c4f67ae52bc0",
+        "name": "Michael Davis",
+        "created_at": "2023-08-14T20:04:44.061Z",
+        "updated_at": "2023-08-14T15:49:42.176Z",
+        "team_id": "040c00bc-cc01-4e59-a417-8a572cd570c6"
+      },
+      {
+        "id": "a4d32078-3038-4992-9d38-1260fcae2d76",
+        "name": "Sarah Wilson",
+        "created_at": "2023-08-15T06:29:02.318Z",
+        "updated_at": "2023-08-15T00:52:17.617Z",
+        "team_id": "040c00bc-cc01-4e59-a417-8a572cd570c6"
+      },
+      {
+        "id": "ed148aad-0d19-4f3a-918d-8a24f7689fa0",
+        "name": "David Thompson",
+        "created_at": "2023-08-14T12:48:49.749Z",
+        "updated_at": "2023-08-14T14:55:25.924Z",
+        "team_id": "2cdfb55e-ff4b-4598-a576-79680da6e98a"
+      }
+    ],
+    "game": [
+      {
+        "id": "6e797b2c-379b-45c1-8872-8723d7e7824f",
+        "status": "Pending",
+        "created_at": "2023-08-15T00:26:44.538Z",
+        "updated_at": "2023-08-15T04:38:58.958Z",
+        "referee_id": "user_entity_pk",
+        "team_id": "040c00bc-cc01-4e59-a417-8a572cd570c6"
+      },
+      {
+        "id": "301e89cf-5370-45b7-b936-d424370f927d",
+        "status": "In Progress",
+        "created_at": "2023-08-15T09:46:53.537Z",
+        "updated_at": "2023-08-14T11:55:55.800Z",
+        "referee_id": "user_entity_pk",
+        "team_id": "2cdfb55e-ff4b-4598-a576-79680da6e98a"
+      },
+      {
+        "id": "92154778-2759-46f4-bb66-87e301770ac2",
+        "status": "Completed",
+        "created_at": "2023-08-15T03:29:52.825Z",
+        "updated_at": "2023-08-15T10:03:20.732Z",
+        "referee_id": "user_entity_pk",
+        "team_id": "412942b4-3e58-4b02-995e-61c853dba435"
+      },
+      {
+        "id": "203ea4ac-2ce4-43c0-9291-371b363f3fea",
+        "status": "Cancelled",
+        "created_at": "2023-08-14T14:37:16.475Z",
+        "updated_at": "2023-08-14T12:15:21.316Z",
+        "referee_id": "user_entity_pk",
+        "team_id": "9523b4fe-10dc-4bee-8ba2-33ff8d237531"
+      },
+      {
+        "id": "32fb6e2d-c56d-459b-8618-5773820d1af7",
+        "status": "On Hold",
+        "created_at": "2023-08-15T05:18:15.233Z",
+        "updated_at": "2023-08-15T06:35:52.698Z",
+        "referee_id": "user_entity_pk",
+        "team_id": "f011ca7f-f5e9-4f07-954c-940248aada5e"
+      }
+    ],
+    "customer": [
+      {
+        "id": "36011f74-cd3c-4e12-b3b2-8ff00b8fb3c0",
+        "name": "ABC Company",
+        "created_at": "2023-08-14T12:18:43.669Z",
+        "updated_at": "2023-08-14T14:42:13.304Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "5d48cc78-11f2-4e18-bf10-74b8779c7fc2",
+        "name": "XYZ Corporation",
+        "created_at": "2023-08-14T18:24:34.524Z",
+        "updated_at": "2023-08-15T08:26:40.873Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "85a8583d-6844-4431-b754-1a542ab65695",
+        "name": "123 Enterprises",
+        "created_at": "2023-08-14T21:47:37.025Z",
+        "updated_at": "2023-08-15T00:47:57.216Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "86080b29-ed81-4dc3-bcb5-9931ad272f08",
+        "name": "Acme Ltd.",
+        "created_at": "2023-08-15T04:43:50.579Z",
+        "updated_at": "2023-08-14T12:30:02.302Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "0ead8401-7dd5-422a-9795-7fd92576cfa7",
+        "name": "Global Industries",
+        "created_at": "2023-08-14T10:53:46.773Z",
+        "updated_at": "2023-08-15T00:35:35.680Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "28661a3a-baaa-4d67-9d9f-435614e2109a",
+        "email": "Amber_Feeney39@hotmail.com",
+        "firstName": "Hipolito",
+        "lastName": "Rolfson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1797924",
+        "tenantId": null
+      },
+      {
+        "reference": "6ba90da2-335f-4c6c-9c38-4c8d4d29a313",
+        "email": "Mavis.Weissnat6@yahoo.com",
+        "firstName": "Cheyanne",
+        "lastName": "Anderson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/68521224",
+        "tenantId": null
+      },
+      {
+        "reference": "eaa65fef-df16-44f9-b61f-ec82add1a057",
+        "email": "Syble_Lebsack@yahoo.com",
+        "firstName": "Royce",
+        "lastName": "McLaughlin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/319.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "83b4939e-6a9b-4249-b271-60469bcc7643",
+        "email": "Norma.Cartwright76@gmail.com",
+        "firstName": "Arielle",
+        "lastName": "Schuppe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10727643",
+        "tenantId": null
+      },
+      {
+        "reference": "1fa5c3e6-d0b8-4584-a742-5408aed0cfbd",
+        "email": "Jayme89@yahoo.com",
+        "firstName": "Bessie",
+        "lastName": "Johnson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/67778007",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "team": [
+      {
+        "id": "b6c32982-a2a7-41f1-abd9-63ca4b48ff24",
+        "name": "Red Dragons",
+        "created_at": "2023-08-14T17:21:57.106Z",
+        "updated_at": "2023-08-15T03:15:30.209Z",
+        "manager_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "e8aa63c4-1158-495f-afae-1ec06552f8c0",
+        "name": "Blue Tigers",
+        "created_at": "2023-08-15T09:07:07.124Z",
+        "updated_at": "2023-08-14T21:36:14.536Z",
+        "manager_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "8cd3e8fb-dffd-424d-920a-96fa7f5e00c7",
+        "name": "Green Falcons",
+        "created_at": "2023-08-15T06:03:32.788Z",
+        "updated_at": "2023-08-14T18:08:49.773Z",
+        "manager_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "bb653658-46c7-4be1-92ee-b82f3f7688a6",
+        "name": "Yellow Lions",
+        "created_at": "2023-08-15T06:55:57.431Z",
+        "updated_at": "2023-08-14T11:48:33.543Z",
+        "manager_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "33f02b35-ad8c-4369-97ec-362178bc6678",
+        "name": "Purple Panthers",
+        "created_at": "2023-08-14T19:53:58.147Z",
+        "updated_at": "2023-08-15T08:25:27.826Z",
+        "manager_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "player": [
+      {
+        "id": "32f0f5f2-f9c1-46b5-939f-fa18716b685e",
+        "name": "John Smith",
+        "created_at": "2023-08-14T13:31:07.989Z",
+        "updated_at": "2023-08-15T08:09:56.930Z",
+        "team_id": "b6c32982-a2a7-41f1-abd9-63ca4b48ff24"
+      },
+      {
+        "id": "5aaa2e08-7c1b-440d-87cd-bc6e8d134ec4",
+        "name": "Emily Johnson",
+        "created_at": "2023-08-15T06:44:46.404Z",
+        "updated_at": "2023-08-15T03:41:26.327Z",
+        "team_id": "e8aa63c4-1158-495f-afae-1ec06552f8c0"
+      },
+      {
+        "id": "e84b6304-abf9-4ffc-8049-40f842337b4a",
+        "name": "Michael Brown",
+        "created_at": "2023-08-14T21:48:24.813Z",
+        "updated_at": "2023-08-14T13:20:02.739Z",
+        "team_id": "b6c32982-a2a7-41f1-abd9-63ca4b48ff24"
+      },
+      {
+        "id": "08ab9cb9-5c2f-4dd7-8ee7-15bdc3311138",
+        "name": "Sarah Davis",
+        "created_at": "2023-08-14T18:54:27.825Z",
+        "updated_at": "2023-08-15T08:07:45.188Z",
+        "team_id": "33f02b35-ad8c-4369-97ec-362178bc6678"
+      },
+      {
+        "id": "187abad3-79a5-439e-8db0-3549e694742e",
+        "name": "David Wilson",
+        "created_at": "2023-08-15T08:17:26.640Z",
+        "updated_at": "2023-08-14T10:50:22.447Z",
+        "team_id": "8cd3e8fb-dffd-424d-920a-96fa7f5e00c7"
+      }
+    ],
+    "game": [
+      {
+        "id": "ceaf7aa5-2647-4bcd-ac80-1b2d00918d18",
+        "status": "In Progress",
+        "created_at": "2023-08-14T14:30:54.394Z",
+        "updated_at": "2023-08-15T03:04:35.720Z",
+        "referee_id": "user_entity_pk",
+        "team_id": "e8aa63c4-1158-495f-afae-1ec06552f8c0"
+      },
+      {
+        "id": "bd4b59ff-42e9-4804-80c1-1265d7bad4f9",
+        "status": "Completed",
+        "created_at": "2023-08-15T01:09:04.830Z",
+        "updated_at": "2023-08-15T04:59:41.259Z",
+        "referee_id": "user_entity_pk",
+        "team_id": "bb653658-46c7-4be1-92ee-b82f3f7688a6"
+      },
+      {
+        "id": "b2ff64b6-95d4-4f2c-a0fe-ed235a32091c",
+        "status": "Cancelled",
+        "created_at": "2023-08-14T16:34:07.648Z",
+        "updated_at": "2023-08-14T22:55:59.319Z",
+        "referee_id": "user_entity_pk",
+        "team_id": "e8aa63c4-1158-495f-afae-1ec06552f8c0"
+      },
+      {
+        "id": "768d3870-8357-4289-bc90-79d33611c1fe",
+        "status": "Upcoming",
+        "created_at": "2023-08-14T22:18:57.647Z",
+        "updated_at": "2023-08-15T02:34:22.260Z",
+        "referee_id": "user_entity_pk",
+        "team_id": "33f02b35-ad8c-4369-97ec-362178bc6678"
+      },
+      {
+        "id": "9f600db6-71ba-4f5e-a5e6-6ce222913792",
+        "status": "Paused",
+        "created_at": "2023-08-14T14:43:40.405Z",
+        "updated_at": "2023-08-15T06:03:17.212Z",
+        "referee_id": "user_entity_pk",
+        "team_id": "33f02b35-ad8c-4369-97ec-362178bc6678"
+      }
+    ],
+    "customer": [
+      {
+        "id": "052a3d4d-0046-490b-85fa-1d4287d2d81f",
+        "name": "ABC Company",
+        "created_at": "2023-08-14T17:14:40.750Z",
+        "updated_at": "2023-08-14T13:51:11.570Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "9d28ce25-b0c9-4d87-9f8d-27b8776c3983",
+        "name": "XYZ Corporation",
+        "created_at": "2023-08-14T12:24:57.141Z",
+        "updated_at": "2023-08-14T20:35:56.011Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "8a521dd1-928d-40e9-99c2-f92ae60ebdc8",
+        "name": "123 Enterprises",
+        "created_at": "2023-08-15T05:31:20.244Z",
+        "updated_at": "2023-08-14T16:02:23.951Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "abe0a234-71ea-42ed-bb4e-db545bcbd622",
+        "name": "Acme Inc.",
+        "created_at": "2023-08-15T09:29:31.580Z",
+        "updated_at": "2023-08-15T01:57:04.861Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "e36bfc22-7a32-4b37-ab20-fea1b828becc",
+        "name": "Global Solutions",
+        "created_at": "2023-08-14T20:41:13.752Z",
+        "updated_at": "2023-08-14T21:15:31.125Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "cfdfc97d-63b4-4e1b-a22f-cd4f831d713b",
+        "email": "Timmothy26@hotmail.com",
+        "firstName": "Jimmy",
+        "lastName": "Collier",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9515735",
+        "tenantId": null
+      },
+      {
+        "reference": "ccc4c40d-cc95-43c7-bda4-1ee01190b502",
+        "email": "Alivia.Roob77@gmail.com",
+        "firstName": "Delpha",
+        "lastName": "Koch",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/79599042",
+        "tenantId": null
+      },
+      {
+        "reference": "8423739f-d45c-4f67-a717-793658f13ad1",
+        "email": "Keegan.Dickinson76@gmail.com",
+        "firstName": "Eino",
+        "lastName": "Feeney",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/24979667",
+        "tenantId": null
+      },
+      {
+        "reference": "7d31600a-70fe-479f-8d19-c0df03ebb5e4",
+        "email": "Boris_Jast85@yahoo.com",
+        "firstName": "Orland",
+        "lastName": "Reilly",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/120.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "331e2e9e-a5c5-40e1-ac88-a3a2cfc8fac4",
+        "email": "Alexandre_West@hotmail.com",
+        "firstName": "Gideon",
+        "lastName": "Runte",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1042.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "team": [
+      {
+        "id": "5f8ad3e9-6a49-4e1c-a91f-d16e8959acf5",
+        "name": "Red Dragons",
+        "created_at": "2023-08-14T14:54:44.542Z",
+        "updated_at": "2023-08-14T11:23:38.746Z",
+        "manager_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "a57b6f13-4f88-4df7-8a67-b7e71049398c",
+        "name": "Blue Tigers",
+        "created_at": "2023-08-14T16:00:55.967Z",
+        "updated_at": "2023-08-14T13:23:18.184Z",
+        "manager_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "9f2c7876-6678-4f1f-baf8-f0d9f5fe1d86",
+        "name": "Green Falcons",
+        "created_at": "2023-08-15T08:43:35.177Z",
+        "updated_at": "2023-08-14T21:56:33.262Z",
+        "manager_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "291a0df6-1e0b-48f6-aca9-bd0cd32db79c",
+        "name": "Yellow Lions",
+        "created_at": "2023-08-15T05:23:21.075Z",
+        "updated_at": "2023-08-14T15:22:47.899Z",
+        "manager_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "8530d13a-142f-44c4-b6a1-bb898d8f0ca1",
+        "name": "Purple Panthers",
+        "created_at": "2023-08-15T04:59:32.512Z",
+        "updated_at": "2023-08-14T21:38:39.971Z",
+        "manager_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "player": [
+      {
+        "id": "8194ccc2-c8af-4bb9-a09a-17034d6be903",
+        "name": "John Smith",
+        "created_at": "2023-08-15T05:18:48.915Z",
+        "updated_at": "2023-08-15T03:33:47.394Z",
+        "team_id": "a57b6f13-4f88-4df7-8a67-b7e71049398c"
+      },
+      {
+        "id": "2b2e96bd-598c-45de-a08c-b8ff2f87473a",
+        "name": "Emily Johnson",
+        "created_at": "2023-08-14T17:09:05.151Z",
+        "updated_at": "2023-08-14T22:27:07.384Z",
+        "team_id": "9f2c7876-6678-4f1f-baf8-f0d9f5fe1d86"
+      },
+      {
+        "id": "3a1b8ab3-eea3-48fd-9992-a0ae8ef029d7",
+        "name": "Michael Davis",
+        "created_at": "2023-08-15T04:09:37.587Z",
+        "updated_at": "2023-08-15T05:04:46.829Z",
+        "team_id": "291a0df6-1e0b-48f6-aca9-bd0cd32db79c"
+      },
+      {
+        "id": "109f61ff-2a66-4122-826a-42354b374799",
+        "name": "Sophia Martinez",
+        "created_at": "2023-08-15T04:45:41.629Z",
+        "updated_at": "2023-08-15T00:14:17.011Z",
+        "team_id": "a57b6f13-4f88-4df7-8a67-b7e71049398c"
+      },
+      {
+        "id": "6a211520-d500-4cdc-a77e-3f60e720616a",
+        "name": "Daniel Thompson",
+        "created_at": "2023-08-15T04:52:59.658Z",
+        "updated_at": "2023-08-14T14:20:04.304Z",
+        "team_id": "9f2c7876-6678-4f1f-baf8-f0d9f5fe1d86"
+      }
+    ],
+    "game": [
+      {
+        "id": "430a6a86-5957-45e0-a94d-01224a82c25f",
+        "status": "Pending",
+        "created_at": "2023-08-15T05:46:25.734Z",
+        "updated_at": "2023-08-15T03:08:12.831Z",
+        "referee_id": "user_entity_pk",
+        "team_id": "5f8ad3e9-6a49-4e1c-a91f-d16e8959acf5"
+      },
+      {
+        "id": "833d5aa7-179e-49cd-86b4-3e0fc17e7e33",
+        "status": "In Progress",
+        "created_at": "2023-08-14T16:27:10.245Z",
+        "updated_at": "2023-08-15T09:11:28.030Z",
+        "referee_id": "user_entity_pk",
+        "team_id": "9f2c7876-6678-4f1f-baf8-f0d9f5fe1d86"
+      },
+      {
+        "id": "77bfd9d8-326a-4bdf-8c2c-eb499478d210",
+        "status": "Completed",
+        "created_at": "2023-08-14T19:44:23.028Z",
+        "updated_at": "2023-08-15T03:14:35.313Z",
+        "referee_id": "user_entity_pk",
+        "team_id": "a57b6f13-4f88-4df7-8a67-b7e71049398c"
+      },
+      {
+        "id": "9804df6f-4d88-4bdc-a881-47b90acbbe51",
+        "status": "Cancelled",
+        "created_at": "2023-08-14T15:00:22.903Z",
+        "updated_at": "2023-08-15T06:20:34.597Z",
+        "referee_id": "user_entity_pk",
+        "team_id": "5f8ad3e9-6a49-4e1c-a91f-d16e8959acf5"
+      },
+      {
+        "id": "afa25368-1bb1-4e67-843a-46912c2fc775",
+        "status": "On Hold",
+        "created_at": "2023-08-14T18:36:04.639Z",
+        "updated_at": "2023-08-14T13:23:04.436Z",
+        "referee_id": "user_entity_pk",
+        "team_id": "8530d13a-142f-44c4-b6a1-bb898d8f0ca1"
+      }
+    ],
+    "customer": [
+      {
+        "id": "b0e076bd-6b5c-40c3-9dd0-d66cf62014ba",
+        "name": "ABC Company",
+        "created_at": "2023-08-15T03:56:59.643Z",
+        "updated_at": "2023-08-15T00:28:35.830Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "116b946b-0a39-4c23-8b51-dee2099c9e7f",
+        "name": "XYZ Corporation",
+        "created_at": "2023-08-14T14:09:40.245Z",
+        "updated_at": "2023-08-15T09:02:36.682Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "17eca1b4-e85f-42ac-b2a5-102bed31ce74",
+        "name": "123 Enterprises",
+        "created_at": "2023-08-14T15:07:55.740Z",
+        "updated_at": "2023-08-15T09:27:19.691Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "f1bf2e3b-5e81-49f5-a615-ec352a6f4d75",
+        "name": "Acme Ltd.",
+        "created_at": "2023-08-14T11:33:57.752Z",
+        "updated_at": "2023-08-15T00:56:20.628Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "26164ebd-94b7-4b73-81d1-5e1f29dd0eab",
+        "name": "Global Industries",
+        "created_at": "2023-08-14T13:24:21.584Z",
+        "updated_at": "2023-08-15T04:39:08.872Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "094594b0-4a3a-43bf-a1e1-bad88be3e94a",
+        "email": "Ambrose3@hotmail.com",
+        "firstName": "Giovanna",
+        "lastName": "Kulas",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/43867695",
+        "tenantId": null
+      },
+      {
+        "reference": "69e823e6-39aa-46ec-82cd-efc97f026861",
+        "email": "Suzanne_Ondricka14@gmail.com",
+        "firstName": "Brittany",
+        "lastName": "Reinger",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/52932037",
+        "tenantId": null
+      },
+      {
+        "reference": "50057588-ab24-47f5-a953-17ae21376c02",
+        "email": "Sam54@hotmail.com",
+        "firstName": "Raymundo",
+        "lastName": "Stehr",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18219726",
+        "tenantId": null
+      },
+      {
+        "reference": "9226f730-463b-4a2f-8704-636abed76411",
+        "email": "Stone.Becker@yahoo.com",
+        "firstName": "Candida",
+        "lastName": "Bosco",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/80801733",
+        "tenantId": null
+      },
+      {
+        "reference": "5c49a505-69c2-48f8-96e1-d9a16f9cf361",
+        "email": "Imogene_Marks77@hotmail.com",
+        "firstName": "Shakira",
+        "lastName": "Homenick",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/470.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "team": [
+      {
+        "id": "3bcf08fa-cdcb-4e14-9563-5eb05713c730",
+        "name": "Red Dragons",
+        "created_at": "2023-08-15T03:10:26.826Z",
+        "updated_at": "2023-08-14T19:47:30.335Z",
+        "manager_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "db08375c-82fc-4b18-b631-e9c9747ca841",
+        "name": "Blue Tigers",
+        "created_at": "2023-08-15T10:12:00.128Z",
+        "updated_at": "2023-08-15T02:39:09.347Z",
+        "manager_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "7fa435bf-16ae-4aa9-9ad6-2d98e792cc81",
+        "name": "Green Falcons",
+        "created_at": "2023-08-14T15:16:48.805Z",
+        "updated_at": "2023-08-14T14:28:38.934Z",
+        "manager_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "414790e7-e0d0-4632-9d7f-5b471166f579",
+        "name": "Yellow Lions",
+        "created_at": "2023-08-14T17:14:39.907Z",
+        "updated_at": "2023-08-15T00:35:26.713Z",
+        "manager_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "af6d7e5f-53e5-4ea3-a854-35e6e15da630",
+        "name": "Purple Panthers",
+        "created_at": "2023-08-15T04:10:35.423Z",
+        "updated_at": "2023-08-14T14:26:45.627Z",
+        "manager_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "player": [
+      {
+        "id": "c9d5fdaf-72fc-47e0-ba37-1f46f2d40f50",
+        "name": "John Smith",
+        "created_at": "2023-08-15T05:46:52.811Z",
+        "updated_at": "2023-08-15T04:45:46.848Z",
+        "team_id": "414790e7-e0d0-4632-9d7f-5b471166f579"
+      },
+      {
+        "id": "b67394ab-2afc-49d1-88cf-073e290fae72",
+        "name": "Emily Johnson",
+        "created_at": "2023-08-14T13:07:57.364Z",
+        "updated_at": "2023-08-14T23:14:35.735Z",
+        "team_id": "414790e7-e0d0-4632-9d7f-5b471166f579"
+      },
+      {
+        "id": "c7817b2d-858d-4338-8c0a-45d92c254f77",
+        "name": "Michael Davis",
+        "created_at": "2023-08-14T19:30:26.483Z",
+        "updated_at": "2023-08-14T13:22:36.443Z",
+        "team_id": "7fa435bf-16ae-4aa9-9ad6-2d98e792cc81"
+      },
+      {
+        "id": "588e69ee-22aa-4999-a02d-549ff72cf731",
+        "name": "Sarah Wilson",
+        "created_at": "2023-08-14T19:21:04.591Z",
+        "updated_at": "2023-08-15T07:11:17.295Z",
+        "team_id": "db08375c-82fc-4b18-b631-e9c9747ca841"
+      },
+      {
+        "id": "e87d6cfe-e620-4c56-9198-fbd45d449964",
+        "name": "David Thompson",
+        "created_at": "2023-08-14T23:06:37.757Z",
+        "updated_at": "2023-08-15T00:08:22.327Z",
+        "team_id": "3bcf08fa-cdcb-4e14-9563-5eb05713c730"
+      }
+    ],
+    "game": [
+      {
+        "id": "f08e79b9-0f5c-4ca6-b2bb-fa09b33f72d5",
+        "status": "In Progress",
+        "created_at": "2023-08-14T12:07:29.507Z",
+        "updated_at": "2023-08-15T02:44:48.834Z",
+        "referee_id": "user_entity_pk",
+        "team_id": "af6d7e5f-53e5-4ea3-a854-35e6e15da630"
+      },
+      {
+        "id": "ba74430d-764a-4e9b-a3a9-1f46658fd0b5",
+        "status": "Completed",
+        "created_at": "2023-08-15T00:02:22.617Z",
+        "updated_at": "2023-08-15T08:28:07.561Z",
+        "referee_id": "user_entity_pk",
+        "team_id": "af6d7e5f-53e5-4ea3-a854-35e6e15da630"
+      },
+      {
+        "id": "38469624-6478-4b1a-afbe-f336fb75d727",
+        "status": "Cancelled",
+        "created_at": "2023-08-15T07:07:02.158Z",
+        "updated_at": "2023-08-15T03:53:51.192Z",
+        "referee_id": "user_entity_pk",
+        "team_id": "af6d7e5f-53e5-4ea3-a854-35e6e15da630"
+      },
+      {
+        "id": "a865b7e5-e10e-45e3-a494-e7f3692e8cc3",
+        "status": "Upcoming",
+        "created_at": "2023-08-15T01:18:39.965Z",
+        "updated_at": "2023-08-15T04:51:33.442Z",
+        "referee_id": "user_entity_pk",
+        "team_id": "7fa435bf-16ae-4aa9-9ad6-2d98e792cc81"
+      },
+      {
+        "id": "8c016a2f-a040-4ec1-bc28-3376a2cb0977",
+        "status": "Paused",
+        "created_at": "2023-08-14T16:44:31.050Z",
+        "updated_at": "2023-08-15T05:59:58.361Z",
+        "referee_id": "user_entity_pk",
+        "team_id": "3bcf08fa-cdcb-4e14-9563-5eb05713c730"
+      }
+    ],
+    "customer": [
+      {
+        "id": "589efa9d-d7ab-47dc-98d5-874eafcb6893",
+        "name": "ABC Company",
+        "created_at": "2023-08-14T19:13:06.761Z",
+        "updated_at": "2023-08-14T21:19:17.201Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "3e5d9b12-db89-4e26-83d6-5fca14cc9726",
+        "name": "XYZ Corporation",
+        "created_at": "2023-08-15T00:31:32.160Z",
+        "updated_at": "2023-08-14T14:42:43.553Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "ca41026d-80de-4857-929b-ead7ecaca449",
+        "name": "123 Enterprises",
+        "created_at": "2023-08-14T21:55:27.259Z",
+        "updated_at": "2023-08-14T13:20:30.593Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "681f5f6c-d5d7-459c-82ba-9a8a36cc6e31",
+        "name": "Acme Ltd.",
+        "created_at": "2023-08-14T18:38:59.357Z",
+        "updated_at": "2023-08-14T13:40:33.193Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "15ce7b9a-8f00-4e6c-86b2-df5a27ac2755",
+        "name": "Global Industries",
+        "created_at": "2023-08-14T11:55:08.344Z",
+        "updated_at": "2023-08-14T16:44:49.850Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "9cc7a0e1-24d0-41d4-b1a0-2e278bdd12fe",
+        "email": "Darlene.Brakus-Sauer@hotmail.com",
+        "firstName": "Jeanette",
+        "lastName": "Fadel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/21942965",
+        "tenantId": null
+      },
+      {
+        "reference": "2b84029e-163c-4ffd-8296-0bad6e8f3609",
+        "email": "Olga.Langworth82@yahoo.com",
+        "firstName": "Phoebe",
+        "lastName": "Koelpin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/265.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "22cea415-9f69-409d-871f-b8122ce8ece8",
+        "email": "Shanny_Quigley@yahoo.com",
+        "firstName": "Devyn",
+        "lastName": "Macejkovic",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/77659876",
+        "tenantId": null
+      },
+      {
+        "reference": "d21f8684-4528-4ee8-960e-1b701a700cfa",
+        "email": "Kiera.Mertz38@hotmail.com",
+        "firstName": "Vidal",
+        "lastName": "Fay",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/27573192",
+        "tenantId": null
+      },
+      {
+        "reference": "8701eef9-d566-422c-a159-cd05498f04f0",
+        "email": "Henri73@hotmail.com",
+        "firstName": "Bobbie",
+        "lastName": "Effertz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18453901",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "team": [
+      {
+        "id": "0d92afc0-0c89-40f8-8ce2-f33deae25d85",
+        "name": "Red Dragons",
+        "created_at": "2023-08-15T07:30:49.734Z",
+        "updated_at": "2023-08-15T00:56:33.426Z",
+        "manager_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "21801af1-6a9b-427d-b33f-f2e5401de2a8",
+        "name": "Blue Tigers",
+        "created_at": "2023-08-15T03:29:14.702Z",
+        "updated_at": "2023-08-14T19:01:49.115Z",
+        "manager_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "fe4f1a94-925b-4b40-91f8-fbb45dd732a1",
+        "name": "Green Falcons",
+        "created_at": "2023-08-15T00:28:57.115Z",
+        "updated_at": "2023-08-15T00:56:51.784Z",
+        "manager_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "4d4e4281-4bac-4c4b-a7f5-72fec46bba3f",
+        "name": "Yellow Lions",
+        "created_at": "2023-08-14T11:32:14.141Z",
+        "updated_at": "2023-08-15T04:32:14.879Z",
+        "manager_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "3699f34e-41f8-49a4-87d5-c3560d17c677",
+        "name": "Purple Panthers",
+        "created_at": "2023-08-15T02:24:54.866Z",
+        "updated_at": "2023-08-14T13:14:58.080Z",
+        "manager_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "player": [
+      {
+        "id": "68ccea32-7c19-4ec3-92f1-3536e6972894",
+        "name": "John Smith",
+        "created_at": "2023-08-15T03:33:13.143Z",
+        "updated_at": "2023-08-15T02:42:35.573Z",
+        "team_id": "fe4f1a94-925b-4b40-91f8-fbb45dd732a1"
+      },
+      {
+        "id": "071af93b-e898-40b8-a9a5-82dc9d127c2c",
+        "name": "Emily Johnson",
+        "created_at": "2023-08-15T05:59:55.041Z",
+        "updated_at": "2023-08-15T03:53:20.136Z",
+        "team_id": "0d92afc0-0c89-40f8-8ce2-f33deae25d85"
+      },
+      {
+        "id": "b8fe87e1-fe10-4d70-b151-f18aef0871b8",
+        "name": "Michael Brown",
+        "created_at": "2023-08-15T05:33:40.974Z",
+        "updated_at": "2023-08-15T02:10:25.414Z",
+        "team_id": "3699f34e-41f8-49a4-87d5-c3560d17c677"
+      },
+      {
+        "id": "5456044a-507b-40ac-8384-684675b50f2b",
+        "name": "Sarah Davis",
+        "created_at": "2023-08-15T01:38:27.175Z",
+        "updated_at": "2023-08-14T21:16:06.885Z",
+        "team_id": "fe4f1a94-925b-4b40-91f8-fbb45dd732a1"
+      },
+      {
+        "id": "0b5f9324-1a68-4cac-994d-6e7e092bd8a7",
+        "name": "David Wilson",
+        "created_at": "2023-08-14T18:01:03.347Z",
+        "updated_at": "2023-08-14T20:24:34.489Z",
+        "team_id": "4d4e4281-4bac-4c4b-a7f5-72fec46bba3f"
+      }
+    ],
+    "game": [
+      {
+        "id": "298d3b6e-6d66-4601-af9d-074436b300f5",
+        "status": "In Progress",
+        "created_at": "2023-08-15T00:05:18.584Z",
+        "updated_at": "2023-08-15T06:44:09.567Z",
+        "referee_id": "user_entity_pk",
+        "team_id": "fe4f1a94-925b-4b40-91f8-fbb45dd732a1"
+      },
+      {
+        "id": "7dc139f4-63d3-42c7-a5aa-fc619027cbca",
+        "status": "Completed",
+        "created_at": "2023-08-14T16:16:49.561Z",
+        "updated_at": "2023-08-14T15:51:34.653Z",
+        "referee_id": "user_entity_pk",
+        "team_id": "fe4f1a94-925b-4b40-91f8-fbb45dd732a1"
+      },
+      {
+        "id": "9dd91dc1-d50b-48c2-85bf-ef3497da92f6",
+        "status": "Cancelled",
+        "created_at": "2023-08-14T10:59:21.534Z",
+        "updated_at": "2023-08-14T15:51:33.904Z",
+        "referee_id": "user_entity_pk",
+        "team_id": "3699f34e-41f8-49a4-87d5-c3560d17c677"
+      },
+      {
+        "id": "68d49fe4-d52a-4b21-bd23-6f3993d0eb7a",
+        "status": "Upcoming",
+        "created_at": "2023-08-15T02:57:15.389Z",
+        "updated_at": "2023-08-14T12:50:18.973Z",
+        "referee_id": "user_entity_pk",
+        "team_id": "3699f34e-41f8-49a4-87d5-c3560d17c677"
+      },
+      {
+        "id": "1c0b1bb6-8f75-475a-b632-a45180bbd3d3",
+        "status": "Paused",
+        "created_at": "2023-08-14T12:18:16.056Z",
+        "updated_at": "2023-08-14T12:42:16.349Z",
+        "referee_id": "user_entity_pk",
+        "team_id": "0d92afc0-0c89-40f8-8ce2-f33deae25d85"
+      }
+    ],
+    "customer": [
+      {
+        "id": "f9c56fca-21ae-4f88-91f8-62683fd85f52",
+        "name": "ABC Company",
+        "created_at": "2023-08-14T15:45:50.305Z",
+        "updated_at": "2023-08-14T17:42:14.223Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "72863af6-699f-4d14-844e-181c8ad74c8f",
+        "name": "XYZ Corporation",
+        "created_at": "2023-08-14T19:58:58.270Z",
+        "updated_at": "2023-08-14T17:52:51.715Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "bee58714-7c52-49d6-95c5-2276fc14eb2c",
+        "name": "123 Enterprises",
+        "created_at": "2023-08-14T19:41:54.185Z",
+        "updated_at": "2023-08-14T14:59:11.128Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "7c42ab4b-fb77-4f7a-9603-d96abeca7a0d",
+        "name": "Acme Inc.",
+        "created_at": "2023-08-15T06:38:06.208Z",
+        "updated_at": "2023-08-14T23:21:56.528Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "d8ef52fa-a40d-4542-92f3-50c02e8eac37",
+        "name": "Global Solutions",
+        "created_at": "2023-08-15T04:43:57.797Z",
+        "updated_at": "2023-08-14T15:12:30.035Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "74be8020-a271-4ba7-9ff6-7623a62486de",
+        "email": "Blair.Lehner@yahoo.com",
+        "firstName": "Layne",
+        "lastName": "Bechtelar",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/92829278",
+        "tenantId": null
+      },
+      {
+        "reference": "0f05ae45-f7fc-4358-b739-5c0e52fc5c04",
+        "email": "Yadira.Hyatt@yahoo.com",
+        "firstName": "Brody",
+        "lastName": "O'Keefe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/26577099",
+        "tenantId": null
+      },
+      {
+        "reference": "b5ba6c3c-c5f2-4829-be47-8f1503c86034",
+        "email": "Hubert61@yahoo.com",
+        "firstName": "Adelia",
+        "lastName": "Klocko",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/25547840",
+        "tenantId": null
+      },
+      {
+        "reference": "c76f2c72-8d74-4ce8-8612-bbf16410a770",
+        "email": "Rhett67@yahoo.com",
+        "firstName": "Yasmine",
+        "lastName": "Klein",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/15.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "69bdd337-7822-4b25-92ef-8daaab8aa4dc",
+        "email": "Edgar98@yahoo.com",
+        "firstName": "Ellie",
+        "lastName": "Sauer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12735916",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "team": [
+      {
+        "id": "b0b2d5ca-bc8d-44b1-97d3-b2f229df1553",
+        "name": "Red Dragons",
+        "created_at": "2023-08-14T16:47:03.421Z",
+        "updated_at": "2023-08-14T10:56:23.479Z",
+        "manager_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "a7aa763b-c510-4012-8ae4-602478fb9878",
+        "name": "Blue Tigers",
+        "created_at": "2023-08-14T13:26:59.223Z",
+        "updated_at": "2023-08-15T05:21:31.141Z",
+        "manager_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "cd67b5e9-5fc2-4a0b-aedd-034cc0b3715b",
+        "name": "Green Falcons",
+        "created_at": "2023-08-14T10:37:08.143Z",
+        "updated_at": "2023-08-14T15:48:01.542Z",
+        "manager_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "b21d6f40-140d-41b6-885a-e4e808e1b4d5",
+        "name": "Yellow Lions",
+        "created_at": "2023-08-14T12:26:51.891Z",
+        "updated_at": "2023-08-15T01:01:12.976Z",
+        "manager_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "56c4a11c-777b-4c6c-804c-0e20fb85d30b",
+        "name": "Purple Panthers",
+        "created_at": "2023-08-15T05:14:31.177Z",
+        "updated_at": "2023-08-15T02:39:05.720Z",
+        "manager_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "player": [
+      {
+        "id": "1cc47f0a-1a8c-41d6-9e8c-4c0d47e082a8",
+        "name": "John Smith",
+        "created_at": "2023-08-15T09:00:00.332Z",
+        "updated_at": "2023-08-14T16:03:40.108Z",
+        "team_id": "56c4a11c-777b-4c6c-804c-0e20fb85d30b"
+      },
+      {
+        "id": "443a3a57-25c1-4099-a5ce-96e9de6fbfb8",
+        "name": "Emily Johnson",
+        "created_at": "2023-08-14T22:00:26.816Z",
+        "updated_at": "2023-08-14T10:25:05.615Z",
+        "team_id": "b21d6f40-140d-41b6-885a-e4e808e1b4d5"
+      },
+      {
+        "id": "097f12d7-0283-4ba6-81c1-2f2214c0163a",
+        "name": "Michael Brown",
+        "created_at": "2023-08-14T22:14:05.141Z",
+        "updated_at": "2023-08-14T23:42:32.534Z",
+        "team_id": "a7aa763b-c510-4012-8ae4-602478fb9878"
+      },
+      {
+        "id": "306f770a-b136-4eeb-906a-31c2193e9349",
+        "name": "Sarah Davis",
+        "created_at": "2023-08-15T07:40:11.094Z",
+        "updated_at": "2023-08-14T17:10:03.714Z",
+        "team_id": "a7aa763b-c510-4012-8ae4-602478fb9878"
+      },
+      {
+        "id": "970141d4-17d4-4405-9c7a-b413a5e10ce6",
+        "name": "David Wilson",
+        "created_at": "2023-08-15T07:39:52.433Z",
+        "updated_at": "2023-08-14T20:25:47.748Z",
+        "team_id": "cd67b5e9-5fc2-4a0b-aedd-034cc0b3715b"
+      }
+    ],
+    "game": [
+      {
+        "id": "5de64c70-1554-4853-9533-302fef0a9081",
+        "status": "In Progress",
+        "created_at": "2023-08-15T04:28:14.287Z",
+        "updated_at": "2023-08-14T18:04:01.926Z",
+        "referee_id": "user_entity_pk",
+        "team_id": "a7aa763b-c510-4012-8ae4-602478fb9878"
+      },
+      {
+        "id": "2063ab15-824e-4aea-bbe1-85cedbd15243",
+        "status": "Completed",
+        "created_at": "2023-08-15T08:58:38.419Z",
+        "updated_at": "2023-08-15T09:46:26.881Z",
+        "referee_id": "user_entity_pk",
+        "team_id": "a7aa763b-c510-4012-8ae4-602478fb9878"
+      },
+      {
+        "id": "1d0c5b15-7fa5-4e83-a952-290a033ec233",
+        "status": "Cancelled",
+        "created_at": "2023-08-14T17:08:55.459Z",
+        "updated_at": "2023-08-15T06:16:09.824Z",
+        "referee_id": "user_entity_pk",
+        "team_id": "b21d6f40-140d-41b6-885a-e4e808e1b4d5"
+      },
+      {
+        "id": "0cb1ece4-2c4c-49ad-8636-f3b31de1246c",
+        "status": "Upcoming",
+        "created_at": "2023-08-14T19:21:18.826Z",
+        "updated_at": "2023-08-14T23:39:21.435Z",
+        "referee_id": "user_entity_pk",
+        "team_id": "b0b2d5ca-bc8d-44b1-97d3-b2f229df1553"
+      },
+      {
+        "id": "89c1b96f-0ced-4398-ae75-0495b85cdeb1",
+        "status": "Paused",
+        "created_at": "2023-08-15T08:13:48.780Z",
+        "updated_at": "2023-08-14T11:51:32.054Z",
+        "referee_id": "user_entity_pk",
+        "team_id": "b0b2d5ca-bc8d-44b1-97d3-b2f229df1553"
+      }
+    ],
+    "customer": [
+      {
+        "id": "3a2d84da-d093-429a-a324-f1ed677a0298",
+        "name": "ABC Company",
+        "created_at": "2023-08-14T12:11:26.344Z",
+        "updated_at": "2023-08-14T19:00:37.656Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "9aa5b917-1055-4284-aec7-9e75779bbd87",
+        "name": "XYZ Corporation",
+        "created_at": "2023-08-14T22:08:36.612Z",
+        "updated_at": "2023-08-15T09:32:36.860Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "425cbb1f-0ea5-444c-a778-33e0caf0fa50",
+        "name": "123 Enterprises",
+        "created_at": "2023-08-15T08:38:03.864Z",
+        "updated_at": "2023-08-15T00:27:23.710Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "2f8af3d0-5997-4e92-9ea0-fac7976ac239",
+        "name": "Acme Inc.",
+        "created_at": "2023-08-14T23:57:46.759Z",
+        "updated_at": "2023-08-15T06:41:08.973Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "d0cf4235-1eea-4c98-bbe7-5f6a0a8d9a9b",
+        "name": "Global Solutions",
+        "created_at": "2023-08-15T02:53:59.269Z",
+        "updated_at": "2023-08-14T21:20:11.817Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "9f239e27-5680-41ea-bfb8-05a73ea40abe",
+        "email": "Adam_Nicolas@yahoo.com",
+        "firstName": "Trevor",
+        "lastName": "Goldner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/583.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d98cf6da-66b9-4653-b9a8-aa8c2d1c9cff",
+        "email": "Cleve.Boyer35@hotmail.com",
+        "firstName": "Eugene",
+        "lastName": "Goyette",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/45216688",
+        "tenantId": null
+      },
+      {
+        "reference": "861f87c5-2f65-4f6a-87f2-223868efa80d",
+        "email": "Toby.Bogan-Borer@gmail.com",
+        "firstName": "Aisha",
+        "lastName": "Erdman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/271.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "45574a8d-8b6f-4406-b202-d80afe6d5252",
+        "email": "Hunter.Harber@hotmail.com",
+        "firstName": "Adolph",
+        "lastName": "O'Hara",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18956300",
+        "tenantId": null
+      },
+      {
+        "reference": "3c39e950-1f88-417e-99f1-7c61972790a3",
+        "email": "Glennie_Labadie@gmail.com",
+        "firstName": "Madaline",
+        "lastName": "Walker",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/38113890",
+        "tenantId": null
+      }
+    ]
+  }
+]
